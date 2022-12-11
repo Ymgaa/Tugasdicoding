@@ -1,0 +1,53 @@
+h2{
+    color:green;
+}
+
+*[lang^=en]{
+    font-style: italic;
+}
+.warning{
+    color: aqua;
+}
+.content{
+    border: 1px solid blue;
+    padding: 30px;
+}
+img ~ p{
+    color: skyblue;
+}
+div  p{
+    /* background-color: yellow; */
+}
+blockquote::before,
+blockquote::after{
+    content: '"';
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+}
+p::first-letter{
+    font-size: 32px;
+    font-weight: bold;
+    color:saddlebrown;
+}
+/* .box{ */
+    /* height: 300px; */
+    /* width: 300px; */
+    /* background-color: #11c5c6; */
+p{
+    line-height: 2;
+    line-height: 2em;
+    line-height: 200%;
+    height: 75%;
+    width: 75%;
+    /* background-color: #FBDD1C; */
+    font-size: 1,5em;
+    font-weight: bold;
+    
+}
+.content{
+    max-width: 800px;
+    height: 400%;
+    margin: 0 auto;
+    background-color: deeppink;
+}
